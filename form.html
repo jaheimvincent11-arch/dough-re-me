@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order - Dough Re Mi</title>
+ <link rel=' stylesheet' href="HomePages-stylesheet"/>
+<script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Dough Re Mi</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="form.html">Order</a>
+<a href="contact.html">Contact</a>
+
+
+</nav>
+</header>
+
+<p id="error"></p>
+
+<a href="https://wa.me/18681234567?text=Hello%20Dough%20Re%20Mi!%20I%20would%20like%20to%20place%20an%20order." 
+   class="whatsapp-btn" target="_blank">
+   📱 Order on WhatsApp
+</a>
+</section>
+<section class="fade-in">
+<h2>Contact Us</h2>
+
+<p>Email: doughremi@gmail.com</p>
+<p>Phone: 868-123-4567</p>
+
+<h3>Opening Hours</h3>
+<p>Mon - Sat: 8:00 AM - 6:00 PM</p>
+
+</section>
+<section class="fade-in">
+<h2>Place Your Order</h2>
+
+<form id="orderForm">
+
+<!-- NAME -->
+<label for="name">Full Name:</label>
+<input type="text" id="name" required>
+
+<!-- EMAIL -->
+<label for="email">Email:</label>
+<input type="email" id="email" required>
+
+<!-- PHONE -->
+<label for="phone">Phone Number:</label>
+<input type="text" id="phone" required>
+
+<!-- PRODUCT TYPE -->
+<label for="product">Select Product:</label>
+<select id="product" required>
+<option value="">--Choose--</option>
+<option>Cake</option>
+<option>Pastries</option>
+<option>Bread Loaf</option>
+<option>Brownie</option>
+<option>Blueberry Muffin</option>
+</select>
+
+<!-- QUANTITY -->
+<label for="quantity">Quantity:</label>
+<input type="number" id="quantity" min="1" required>
+
+<!-- MESSAGE -->
+<label for="message">Additional Details:</label>
+<textarea id="message" placeholder="Custom requests..."></textarea>
+
+<label>Pickup Date:</label>
+<input type="date">
+
+<label>Pickup Time:</label>
+<input type="time">
+
+<label>Delivery Method:</label>
+<select>
+<option>Pickup</option>
+<option>Delivery</option>
+</select>
+<label>Special Instructions:</label>
+<textarea></textarea>
+
+<!-- SUBMIT -->
+<button type="submit">Submit Order</button>
+
+</form>
+
+<p id="error"></p>
+
+</section>
+
+<!-- BRANCH LOCATIONS -->
+<section class="fade-in">
+<h2>Our Locations</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Port of Spain Branch</h3>
+<p>123 Frederick Street</p>
+</div>
+
+<div class="card">
+<h3>San Fernando Branch</h3>
+<p>45 High Street</p>
+</div>
+
+<div class="card">
+<h3>Arima Branch</h3>
+<p>12 Broadway Street</p>
+</div>
+
+</div>
+</section>
+
+
+
+<footer>
+<p>&copy; 2026 Dough Re Mi</p>
+</footer>
+
+</body>
+</html>
+
+

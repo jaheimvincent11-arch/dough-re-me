@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dough Re Mi - Bakery Website</title>
+    <link rel=' stylesheet' href="HomePages-stylesheet"/>
+    <script defer src="script.js"></script>
+    <script defer src="chatbot.js"></script>
+    </head>
+<body>
+    <header>
+        <h1>Dough Re Mi</h1>
+         <div class="logo"></div>
+        <div class="product">
+         <img src="Logo .jpeg" alt=  style="float:left; width:200px; margin-left:10px;">
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="form.html">Order</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+</header>
+        <div class="logo"></div>
+        <div class="product">
+       
+            
+        
+    </header>
+     <section class="hero">
+        <div class="hero-banner">
+            <h1>Welcome to Dough Re Mi</h1>
+            <p>Freshly Baked, Made With Love</p>
+            <!-- Placeholder for small icon, using text for simplicity -->
+            <div style="font-size: 2em; color: #999;">▲</div>
+        </div>
+        <div class="hero-buttons">
+            <button>Order Now</button>
+            <button onclick="location.href='form.html'">Order Now</button>
+            <button>Subscribe</button>
+            <button onclick="location.href='form.html'">Order Now</button>
+            
+        </div>
+    </section>
+<section class="featured">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="Bread.jpeg" alt="Product Image">
+                <p>Bread</p>
+            </div>
+            <div class="product">
+                <img src="Brownie.jpeg" alt="Product Image">
+                <p>Brownie</p>
+            </div>
+            <div class="product">
+                <img src="Cupcake.jpeg" alt="Product Image">
+                <p>Cupcake</p>
+            </div>
+            <div class="product">
+                <img src="Cake.jpeg" alt="Product Image">
+                <p>Cake</p>
+            </div>
+            <div class="product">
+                <img src="Pastry .jpeg" alt="Product Image">
+                <p>Pastry</p>
+            </div>
+        </div>
+    </section>
+    
+        
+        <div class="chatbot-icon" onclick="toggleChat()">💬</div>
+
+<div class="chatbot" id="chatbot">
+    <div class="chat-header">Dough Re Mi Assistant</div>
+    
+    <div class="chat-body" id="chatBody">
+        <p><strong>Bot:</strong> Hi! 👋 How can I help you?</p>
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+       
+    
+    <section class="about">
+        <h2>ABOUT</h2>
+        <h3>PREVIEW</h3>
+        <h4>Short description on Dough Re Mi</h4>
+        <p>Dough Re Mi Bakery offers freshly baked breads, cakes, and pastries made daily with 
+        quality ingredients to bring customers delicious treats in a warm and friendly atmosphere.</p>
+    </section>
+
+    <footer>
+        <p>Contact | Social Media | Location</p>
+    </footer>
+</body>
+</html>
